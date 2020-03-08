@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>contact</title>
+    <link rel="icon" href="asset/images/codeing.png">
 </head>
 <body>
 <a href="index.html">Home</a>
@@ -29,15 +30,26 @@
     <table>
       <tr>
         <td width=50%>
-          <form method="GET" action="http://www.google.com" enctype="utf-8">
+          <form >
             <label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="" id="fname" >
+            <input type="text" name="" id="fname" required size="45"
+            pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
             <br>
             <label for="lname">last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="" id="sname">
+            <input type="text" name="" id="sname"required size="45"
+            pattern="[a-z]{4,8}" title="4 to 8 lowercase letters"> 
             <br>
+            <label for="sex">Sex:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
             <label for="email">email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="email" id="email">
+            <input type="text" name="email" id="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Must be valid email account">
+            <br>
+            <label for="password">password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="" id="pass" required size="45"
+            pattern="[a-z]{8,}" title="Must be grater than 8 characters">
             <br>
             country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <select name="country" id="">
