@@ -1,0 +1,33 @@
+body{
+    background-color:skyblue;
+ 
+    margin: 10px;
+}
+header{
+    background-color: rgba(119red, rgb(62, 202, 62), rgb(84, 84, 161), alpha);
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+}
+
+section{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 30px;
+  
+}
+article{
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+.title{
+    font-size: 23px;x
+    font-weight: bold;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+
+}
