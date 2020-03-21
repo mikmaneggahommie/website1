@@ -1,0 +1,218 @@
+.contain {
+    background-color: wheat;
+    width: 100%;
+    margin: unset;
+  }
+  .flag {
+    display: flex;
+    padding: 20px;
+  }
+  .flag div {
+    margin: 10px;
+    border: 2px black;
+  }
+  .armenia {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+      180deg,
+      #d90012,
+      #d90011 calc(100% / 3),
+      #0033a0 calc(100% / 3),
+      #0033a0 calc(100% / 3 * 2),
+      #f2a800 calc(100% / 3 * 2),
+      #f2a800 100%
+    );
+  }
+  .austria {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+      180deg,
+      #ed2939,
+      #ed2939 calc(100% / 3),
+      white calc(100% / 3),
+      white calc(100% / 3 * 2),
+      #ed2939 calc(100% / 3 * 2),
+      #ed2939 100%
+    );
+  }
+  .barbados {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+      to right,
+      #00267f,
+      #00267f calc(100% / 3),
+      #ffc726 calc(100% / 3),
+      #ffc726 calc(100% / 3 * 2),
+      #00267f calc(100% / 3 * 2),
+      #00267f 100%
+    );
+  
+    position: relative;
+  }
+  
+  .barbados:before {
+    position: absolute;
+  
+    content: "♆";
+  
+    font-size: 3em;
+  
+    left: calc(50% - 18px);
+  
+    top: 32px;
+  }
+  .burkina {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+      to bottom,
+      #ef2b2d,
+      #ef2b2d 50%,
+      #009e49 50%,
+      #009e49 100%
+    );
+  
+    position: relative;
+  }
+  
+  .burkina:after {
+    position: absolute;
+  
+    content: "★";
+  
+    left: 0;
+  
+    margin-left: auto;
+  
+    right: 0;
+  
+    margin-right: auto;
+  
+    text-align: center;
+  
+    top: calc(50% - 24px);
+  
+    font-size: 36px;
+  
+    color: #fcd116;
+  }
+  .cameroon {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+      to right,
+      #007a5e,
+      #007a5e calc(100% / 3),
+      #ce1126 calc(100% / 3),
+      #ce1126 calc(100% / 3 * 2),
+      #fcd116 calc(100% / 3 * 2),
+      #fcd116 100%
+    );
+  
+    position: relative;
+  }
+  
+  .cameroon:before {
+    position: absolute;
+  
+    content: "★";
+  
+    left: 0;
+  
+    margin-left: auto;
+  
+    right: 0;
+  
+    margin-right: auto;
+  
+    text-align: center;
+  
+    color: #fcd116;
+  
+    font-size: 26px;
+  
+    top: 40%;
+  }
+  .finland {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+        to bottom,
+        transparent 35%,
+        #003580 35%,
+        #003580 60%,
+        transparent 60%
+      ),
+      linear-gradient(
+        to right,
+        transparent 30%,
+        #003580 30%,
+        #003480 45%,
+        transparent 45%
+      ),
+      white;
+  }
+  .france {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+      to right,
+      #002395 calc(100% / 3),
+      white calc(100% / 3),
+      white calc(100% / 3 * 2),
+      #ed2939 calc(100% / 3 * 2)
+    );
+  }
+  .germany {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(
+      to bottom,
+      black calc(100% / 3),
+      #dd0000 calc(100% / 3),
+      #dd0000 calc(100% / 3 * 2),
+      #ffce00 calc(100% / 3 * 2)
+    );
+  }
+  .denmark {
+      width: 200px;
+    height: 120px;
+  background: linear-gradient(
+        to bottom,
+        transparent 40%,
+        white 40%,
+        white 55%,
+        transparent 55%,
+        transparent 100%
+      ),
+      linear-gradient(
+        to right,
+        transparent 30%,
+        white 30%,
+        white 40%,
+        transparent 40%,
+        transparent 100%
+      ),
+      #c60c30;
+  }
+  .italy{
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(to right,#009246 calc(100% / 3),white calc(100% / 3),white calc(100% / 3),#CE2B37 calc(100% / 3));
+  }
+  .kuwait{
+    width: 200px;
+    height: 120px;
+    background: white;
+    border-left: 50px solid black;
+    border-top: 35px solid #CE1126;
+  }
+  .laos{
+    width: 200px;
+    height: 120px;
+    background: radial-gradient(70px at 50% 50%,white 0, white 35%,transparent 35%,transparent 100%),linear-gradient(to bottom ,#CE1126 25%,#002868 25%,#002868 75%,#CE1126 75%);
+  }
+  

@@ -5,75 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>contact</title>
-    <link rel="icon" href="asset/images/codeing.png">
+    <link rel="icon" href="asset/images/Fingerprint.png">
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
-<a href="index.html">Home</a>
-<a href="contact.html">contact</a>
-<a href= "gallary.html">Gallary</a></hr>
-<hr>
-    <table cellspacing="10">
-        <tr>
-          <td>
-            <img src="asset/images/Codeing.png" width= 500 height=400 alt="Coding picture">
-          </td>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="https://cdn.pixabay.com/photo/2020/03/15/15/41/medical-4934010_960_720.jpg" alt="Corona virus">
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gallary.html">Gallary</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="MyWork.html">my work</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+  <div class="contain">
+<div class="inside">
+    <div class="map">
+      <div class="mapouter">
+        <iframe width="610" height="510" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=Addis%20Ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
+    </div>
+    <div class="form">
+      <form>
+        <label for="fname">First name:</label>
+        <input type="text" name="" id="fname" required size="45" pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
+        <br>
+        <label for="lname">last name:</label>
+        <input type="text" name="" id="sname" required size="45" pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
+        <br>
+        <label for="email">email:</label><br>
+        <input size="45" type="text" name="email" id="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+          title="Must be valid email account">
+        <br>
+        <label
+          for="sex">Sex:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+         <label for="">country:</label>
+        <select name="country" id="">
+          <option value="">africa</option>
+          <option value="">europe</option>
+          <option value="">china</option>
+        </select><br>
+        <label for="message">Message</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="submit">
+      </form>
+    </div>
+  </div>
+  </div>
   
-          <td>
-            <h1>Mikiyas Daniel Tefera</h1>
-            <h3>Student, AAiT</h3>
-            <p>My name is mikiyas daniel,I am a second year student at AAIT University . currently i am capable of programming both in java and python language  <br>Also now i have the ability of makeing a simple webpage with html,css and java. <br>Through time my skills have been developing exponiasally with every language i learn.
-            </p>
-          </td>
-        </tr>
-    </table>
-    <hr>
-    <table>
-      <tr>
-        <td width=50%>
-          <form >
-            <label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="" id="fname" required size="45"
-            pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
-            <br>
-            <label for="lname">last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="" id="sname"required size="45"
-            pattern="[a-z]{4,8}" title="4 to 8 lowercase letters"> 
-            <br>
-            <label for="sex">Sex:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="radio" id="male" name="gender" value="male">
-<label for="male">Male</label>
-<input type="radio" id="female" name="gender" value="female">
-<label for="female">Female</label><br>
-            <label for="email">email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="email" id="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Must be valid email account">
-            <br>
-            <label for="password">password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="" id="pass" required size="45"
-            pattern="[a-z]{8,}" title="Must be grater than 8 characters">
-            <br>
-            country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <select name="country" id="">
-            <option value="">africa</option>
-            <option value="">europe</option>
-            <option value="">china</option>  
-            </select>
-            <br>
-            <br>feedback<br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <br>
-            <input type="submit" value="submit"></form>
-        </td>
-        <td width=50%>
-         <p><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com">myip.ru</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></p>
-        </td>
-      </tr>
-    </table>
-        
-        <hr>
-        <a href="http://www.facebook.com" target="_blank">Facebook</a>
-        <hr>
-        <p align="center">Developed by Mikiyas Daniel &copy;2020</p>
-        
-        
+  <footer>
+    <div class="footer">
+      <a href="http://www.facebook.com" target="_blank">Facebook</a>
+      <p align="center">Developed by Mikiyas Daniel &copy;2020</p>
+    </div>
+  </footer>
+
 </body>
 </html>

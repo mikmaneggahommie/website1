@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="icon" href="asset/images/Fingerprint.png">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://cdn.pixabay.com/photo/2020/03/15/15/41/medical-4934010_960_720.jpg"
+                    alt="Corona virus">
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallary.html">Gallary</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="MyWork.html">my work</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <div class="contain">
+        <div class="questions">
+            <div class="q1">
+                <h2>
+                    Q1. Does it matter to use relative size(%,em,rem) one styling the size of an element so that the
+                    element
+                    is responsive ? why ?
+                </h2>
+                <br>
+                <p>
+                   The answer is yes, if we need our page to be a scalable design with a flexiablity relative units could be in a very good help. If we make  our site adjust its size relative to the root we can make our page fit as the size of the screen changes. It is very exausting and confusing what mesurments to use when doing our adjustment that where relative length measurments(em,ex,ch and rem) come in handy in which using this relative values can scale up and down  things in respective manner to the change of the other value.This helps our page to be responsive.
+                </p>
+                
+            </div>
+            <div class="q2">
+                <h2>
+                    Q2. Q2. 16px is default browser width so what does it mean when we say 200px ? How does the browser
+                    interprets that ?
+                </h2>
+                <br>
+                
+                <p>
+                    200px in rem equals to 12.5, And the computer interpreter definition of 1rem unit is equal to the computed value of font-size on the root element. When specified on the font-size property of the root element, the rem units refer to the property’s initial value. This means that 1rem equals the font size of the html element. When user sets different font-size on browser, rem automatically scale up or scale down elements like fonts, images etc on the webpage which is not the case with px</p>
+            </div>
+            <div class="q3">
+                <h2>
+                    Q3. Explain in detail(in technical terms) the specific changes in css3
+                </h2>
+                <div>
+                    <P>
+                        Cascading Style Sheets Level 3 (CSS3) is the iteration of the CSS standard used in the styling and formatting of Web Pages. 
+                        CSS3 incorporates the CSS2 with some changes and improvements
+                    </P>
+                    <p class="ti">
+                        CSS3 Backgrounds
+                    </p>
+                    <P>
+                        CSS3 provides several new properties to manipulate the background of an element like background clipping, 
+                        multiple backgrounds, and the option to adjust the background size. these feature include: <br>
+                        &bullet; Background-size property allows to change the size of the background images without changing the actual size of the image. <br>
+                        &bullet; Background-clip property allows to change whether an element’s background extends into the border or not. <br>
+                        &bullet; Background-origin property allows to change the positioning area of the background images. <br>
+                        &bullet; Multiple Backgrounds allows to add more than one backgrounds to a single element by layering them on the top of one another. 
+                        The backgrounds are given separated by commas and the first background given is placed on top and last background given is placed in the bottom.
+                    </P>
+                    <p class="ti">
+                        Text Overflow
+                    </p>
+                    <p>
+                        It allows to determine how texts that overflow their container should be applied displayed. It has values like nowarp, word-wrap, normal, and break-word
+                    </p>
+                    <p class="ti">
+                        New Colors
+                    </p>
+                    <p>
+                        Before CSS3 color can be only determined by “color keywords” and RGB notations. In addition to that CSS3 adds some new notations for setting color values for the elements. <br>
+                        &bullet; RGBA color values (red-green-blue-alpha)- is an extension of RGB color model with alpha channel which specifies the degree of transparency of a color. <br>
+                        &bullet; HSL color values- Hue-Saturation-Lightness functional notation is color value setting function that take three parameters. The first parameter is Hue that 
+                        represent an angle of the color wheel ranging from 0 to 360. The second parameter is saturation which control the shade of color from 0% to 100%. The third parameter 
+                        is lightness controlling light intensity ranging from 0% to 100%.  <br>
+                        &bullet; HSLA color values - Hue-Saturation-Lightness-Alpha is an extension HSL color notation with alpha channel.
+                    </p>
+                    <p class="ti">
+                        Media Queries
+                    </p>
+                    <p>
+                        IT allow to customize the presentation of web pages for a specific range of devices like mobile phones, table, desktops without any change in markups. 
+                        It consists of a media type and zero or more expressions that match the type and conditions of a particular media features such as device width or 
+                        screen resolution.
+                    </p>
+                    <p class="ti">
+                        Flexible box (flexbox)
+                    </p>
+                    <p>
+                        It is a new layout model for creating the flexible user interface design with multiple rows and columns without 
+                        using the percentage or fixed length values. It provides a simple and powerful methods for controlling the distributing
+                         of space and alignment of content automatically through stylesheet without interfering the actual markup.
+                    </p>
+                    <p class="ti">
+                        Borders
+                    </p>
+                    <p>
+                        CSS3 introduced two new border properties for styling the borders of an elements, border-image property used for adding
+                         an image to borders and border-radius property for making the rounded corners without using any images.
+                    </p>
+                    <p class="ti">
+                        Gradient
+                    </p>
+                    <p>
+                        This property provides a flexible solution to generate smooth transitions between different colors. It also helps to reduce
+                         the download times and saves the internet data usage, reduce quality lose when scaling up and down, and makes render faster.
+                    </p>
+                    <p class="ti">
+                        Advanced Selectors
+                    </p>
+                    <p>
+                        CSS3 selectors can identify elements based on its attributes, the position in which they appear in the parent element, and the state. <br>
+                        &bullet; Attributes Selectors allow to apply one determined formatting to certain elements based on the value of one attribute. <br>
+                        &bullet; Position Selectors work based on the position of the element in the document or in the container (parent element). <br>
+                        &bullet; State Selectors work based on the actual state of the control (empty, enabled, disabled , etc.).
+                    </p>
+                    <p class="ti">
+                        Calculating Values
+                    </p>
+                    <p>
+                        It allows to calculate values of the elements using the “calc()” function, it does simple arithmetic calculations such as size, frequency, and angle.
+                    </p>
+                    <p class="ti">
+                        Drop Shadow
+                    </p>
+                    <p>
+                        This property removed the method of creating the shadows by using sliced images, but Drop shadow allows to add or remove shadow effects to the 
+                        elements without using any images. Using text-shadow and box-shadow property allows to add shadow effects surrounding text and box elements respectively. 
+                    </p>
+                    <p>More Info:
+                        <a href="http://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use">Link1</a>
+                        <a href="http://www.springpeople.com/blog/top-10-amazing-css3-new-features-ready-to-use/">Link2</a>
+                    </p><br>
+                    <p class="date"> 
+                        March 20, 2020
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <a href="http://www.facebook.com" target="_blank">Facebook</a>
+            <p align="center">Developed by Mikiyas Daniel &copy;2020</p>
+        </div>
+    </footer>
+</body>
+</html>

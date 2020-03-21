@@ -1,0 +1,54 @@
+.tic {
+    position: relative;
+    top: 100px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  }
+  .bx {
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .b1 {
+    border-top: none;
+    border-left: none;
+  }
+  .b2 {
+    border-top: none;
+    border-left: none;
+  }
+  .b3 {
+    border-top: none;
+    border-right: none;
+  }
+  .b4 {
+    border-top: none;
+    border-left: none;
+  }
+  .b5 {
+    border-top: none;
+    border-left: none;
+  }
+  .b6 {
+    border-right: none;
+  }
+  .b7 {
+    border-bottom: none;
+    border-left: none;
+  }
+  .b8 {
+    border-bottom: none;
+  }
+  .b9 {
+    border-bottom: none;
+    border-right: none;
+  }

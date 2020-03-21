@@ -129,3 +129,30 @@ nav .logo img{
     box-shadow: 1px 1px 0px 10px green;
     margin: 3px;
 }
+.wrap{
+    position: relative;
+    top: 40%;
+    left: 20%;
+}
+.wrap ul li a{
+    text-decoration: dotted;
+    color: black;
+    font-size: xx-large;
+}
+.wrap ul, .wrap ul li{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+.wrap ul li:hover{
+    background-color: blueviolet;
+}
+.questions{
+    background-color: rgb(181, 255, 230);
+    margin-left: 7%;
+}
+.questions div{
+    margin: 40px;
+}
